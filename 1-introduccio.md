@@ -143,7 +143,7 @@ Donat que només a base de picar codi i provar-ho es va aprenent com funciona, a
 
 ### 1.7. Per què val la pena aprendre a programar?
 
-![Steve Jobs](steve.png)
+![Steve Jobs](imatges/steve.png)
 
 Tothom hauria d'apendre a programar, Això t'ensenya a pensar.
 
