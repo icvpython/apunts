@@ -1,6 +1,5 @@
 
 
-
 ## 1.- Introducció i configuració de l'entorn.
 
 La programació és com donar instruccions molt precises a un ordinador perquè faci el que volem: 
@@ -141,7 +140,7 @@ Al començar a programar, aniràs aprenent:
 Donat que només a base de picar codi i provar-ho es va aprenent com funciona, això que fem a l'igual quan entrenem el cos en qualsevol esport anem coneixent els nostres límits i capacitats.
 
 
-### 1.7. Per què val la pena aprendre a programar?
+### 1.7. Per què aprendre a programar?
 
 ![Steve Jobs](imatges/steve.png)
 
