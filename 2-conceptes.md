@@ -113,25 +113,22 @@ T’imagines llegir una recepta on en lloc de ous_batuts et posen ob? O pitjor e
 Per això, aquí tens quatre regles d’or (amb gust de patata):
 
 **1. Sigues significatiu:**
-Bé:
+
 ```Python
-ous_batuts = 3
+ous_batuts = 3   #Bé
+ob = 3    # Què dimonis és ob? Ous bullits? 
 ```
-Malament:
-```Python
-ob = 3      # Què dimonis és ob? Ous bullits? Origen Basc?
-``` 
-Si et cau el codi a terra d’aquí sis mesos, vols saber què fa sense haver de tastar-lo. Escriu com si t’ho haguessis d’explicar a tu mateix… del futur!
+
+Pensa en el programador que haurà d'entendre el codi després de tu, o tu d'aquí un temps, per això es recomana que les variables s'entenguin i també posar comentaris!
+> Python i tots els llenguatges de programació són **Case-sensitive**, no és igual majúscules i minúscules, és a dir, la variable `var` és diferent de `Var`
 
 **2. No comencis per números:**
-Bé:
+
 ```Python 
-patates_2 = 2
+patates_2 = 2   # Bé
+2patates = 2   # Malament
 ```
-Malament:
-```Python 
-2patates = 2
-```
+
 
 Python no entén noms que comencin per un número. Si ho fas, rebràs un “SyntaxError” que sona com una alarma de forn massa calent.
 
@@ -141,7 +138,7 @@ Python no entén noms que comencin per un número. Si ho fas, rebràs un “Synt
    
 En tots els llenguatges de programació, els espais en blanc no es poden fer servir dins del nom d’una variable. Per a fer-ho correcte podem utilitzar dos tipus d'accions:
 
-CamelCase:
+*CamelCase*:
 
 Consisteix a juntar les paraules sense espais però posant en majúscula la primera lletra de cada paraula, excepte la primera.
 
@@ -151,7 +148,7 @@ tempsDeCoccio = 8
 patatesTallades = 12
 ```
 
-sanke_case:
+*sanke_case*:
 
 Consisteix a substituir els espais per guions baixos (_), i posar totes les lletres en minúscules.
 
@@ -178,7 +175,38 @@ print(ous)      # 6
 
 # 2. Operadors
 
-Operadors combinats: menys línies, mateixa força
+## 2.1 Operadors aritmètics
+
+|Operador | Descripció | Exemple |
+|---|---|---|
+|+	|Suma	|4 + 3 (= 7)|
+|-	|Resta |	10 - 5 (= 5)|
+|*	|Multiplicación	| 3 * 4 (= 12)|
+|/	|División	| 5 / 2 (= 2.5)|
+|//	|División entera	|5 // 2 (= 2)|
+|%	|Módulo |	5 % 2 (= 1)|
+|**	|Exponenciación	|2 ** 3 (= 8)|
+
+## 2.2 Operadors relacionals
+|Operador | Descripció | Exemple |
+|---|---|---|
+|==|	Igual	|(3 + 1) == (2 ** 2)|
+|!=|	Diferente|	0 != 1|
+|>	|Mayor que|	3 > 2|
+|<	|Menor que|	2 < 3|
+|>=|	Mayor o igual que|	3 >= (2 + 1)|
+|<=|	Menor o igual que|	2 <= 5|
+
+## 2.3 Operadors lògics
+
+|Operador | Descripció | Exemple |
+|---|---|---|
+|and	|Retorna True si ambos operandos son verdaderos y False en caso contrario	|(1 < 2) and (4 > 3) [= True]|
+|or	|Retorna True si al menos uno de los operados es verdadero y False en caso contrario	|(10 > 20) or (40 < 30) [= False]|
+|not	|Retorna True si el operando el falso y False en caso contrario	|not (4 > 2) [= False]|
+
+
+**Operadors combinats**: menys línies, mateixa força
 
 Per fer els càlculs més àgils i nets, Python ofereix operadors abreujats que combinen l’assignació (=) amb una operació (+, -, *, /,
 etc.):
