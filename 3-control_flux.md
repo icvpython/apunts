@@ -1,15 +1,12 @@
 
 
+## 3.- Estructures de control de flux: Condicionals i bucles.
 
-## 3.- Estructures de control de flux.
-
-1. Introducció general al control de flux en Python
+**1. Introducció general al control de flux en Python**
 Quan cuinem, no seguim sempre una recepta estricta. Observem què tenim a la nevera, prenem decisions sobre la marxa i adaptem
-la preparació segons els ingredients, el temps o el gust del moment. En programació, fem exactament el mateix: prenem decisions i
-repetim accions segons les condicions i les dades disponibles.
+la preparació segons els ingredients, el temps o el gust del moment. En programació, fem exactament el mateix: prenem decisions i repetim accions segons les condicions i les dades disponibles.
 
-Aquest procés de decidir què fer i quan fer-ho és el que anomenem control de flux. En Python, tenim unes eines molt potents per
-fer això: estructures condicionals i bucles. Aquestes ens permeten que el programa s’adapti, que prengui decisions, i que
+Aquest procés de decidir què fer i quan fer-ho és el que anomenem control de flux. En Python, tenim unes eines molt potents per fer això: estructures condicionals i bucles. Aquestes ens permeten que el programa s’adapti, que prengui decisions, i que
 repeteixi accions quan calgui.
 
 
@@ -28,15 +25,11 @@ I si ha d’esperar fins que l’aigua bulli, això seria un bucle while.
 Vegem ara, pas a pas, aquestes estructures de control de flux en Python amb analogies culinàries.
 
 
-1.1. Condicionals: if, elif, else
+# 1.1. Condicionals: if, elif, else
 
-Aquesta estructura permet prendre decisions. El programa revisa si es compleix una condició (if) i, segons el cas, executa un bloc
-de codi. Si la primera condició no es compleix, pot mirar altres opcions (elif), i si cap condició es compleix, hi ha una última acció per
-defecte (else).
+Aquesta estructura permet prendre decisions. El programa revisa si es compleix una condició (if) i, segons el cas, executa un bloc de codi. Si la primera condició no es compleix, pot mirar altres opcions (elif), i si cap condició es compleix, hi ha una última acció per defecte `else`.
 
-És com quan entres a la cuina i decideixes què fer:
-
-“Si tinc ous, faig truita; si no, però tinc pa, faig torrades; i si no tinc res, faig un cafè.”
+> És com quan entres a la cuina i decideixes què fer:  “Si tinc ous, faig truita; si no, però tinc pa, faig torrades; i si no tinc res, faig un cafè.”
 
 ```Python
 tinc_ous = True
@@ -61,10 +54,9 @@ Això permet al programa actuar de manera flexible segons el context.
 
 
 
-1.2. match: selecció estructurada (com un switch modern)
+# 1.2. match: selecció estructurada (com un switch modern)
 
-La instrucció match és una característica més nova de Python (disponible des de la versió 3.10). Permet comprovar múltiples valors possibles d’una sola variable, d’una manera molt llegible. És molt útil quan tens moltes opcions a triar segons un sol
-element.
+La instrucció `match` és una característica més nova de Python (disponible des de la versió 3.10). Permet comprovar múltiples valors possibles d’una sola variable, d’una manera molt llegible. És molt útil quan tens moltes opcions a triar segons un sol element.
 
 És com tenir un menú i decidir què cuinar segons el plat escollit.
 
@@ -85,7 +77,7 @@ match plat:
 ```
 
 
-Explicació detallada:
+**Explicació detallada:**
 * match plat: obre la comparació.
 * Cada case és una possible opció del valor.
 * _ representa qualsevol altre cas (com else).
@@ -97,9 +89,9 @@ Aquesta estructura és ideal quan una sola variable pot tenir molts valors difer
 
 
 
-1.3. Bucle for
+# 1.3. Bucle for
 
-El bucle for s’utilitza per repetir una acció un nombre determinat de vegades. No cal que tinguem una llista; simplement podem dir:
+El bucle `for` s’utilitza per repetir una acció un nombre determinat de vegades. No cal que tinguem una llista; simplement podem dir:
 
 “Remeno la sopa 5 vegades.”
 
@@ -110,7 +102,7 @@ for volta in range(5):
     print(f"Remeno la sopa - volta {volta + 1}")
 ```
 
-Explicació detallada:
+**Explicació detallada:**
 * range(5) genera els nombres del 0 al 4 (és a dir, 5 voltes).
 * A cada volta, la variable volta conté el número actual de la repetició.
 * Sumem +1 perquè als humans ens agrada comptar des de l’1, no des de l’0.
@@ -119,10 +111,9 @@ Explicació detallada:
 
 
 
-1.4. Bucle while
+# 1.4. Bucle while
 
-El bucle while repeteix una acció mentre una condició sigui certa. És ideal quan no saps exactament quantes vegades hauràs de
-repetir una acció. Com remenar una salsa fins que quedi espessa.
+El bucle `while` repeteix una acció mentre una condició sigui certa. És ideal quan no saps exactament quantes vegades hauràs de repetir una acció. Com remenar una salsa fins que quedi espessa.
 
 “Segueixo remenant la salsa fins que espesseixi.”
 
@@ -147,11 +138,7 @@ Aquest tipus de bucle és molt útil quan volem esperar una “condició real”
 
 
 
-1.5. Conclusió
-
-Les estructures de control de flux són fonamentals per escriure programes intel·ligents, adaptables i útils. Igual que un bon cuiner sap
-improvisar i adaptar-se al que té, un bon programador sap com fer que el seu codi prengui decisions i repeteixi accions de manera
-eficient.
+**1.5.Resum**
 
 Python ens proporciona estructures senzilles però molt potents per fer això:
 
