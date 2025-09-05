@@ -1,6 +1,6 @@
 
 
-## 1.- Introducció i configuració de l'entorn.
+# 1.- Introducció
 
 La programació és com donar instruccions molt precises a un ordinador perquè faci el que volem: 
 * resoldre un càlcul
@@ -12,19 +12,20 @@ La programació és com donar instruccions molt precises a un ordinador perquè 
 Gràcies a la programació s'han creat totes les aplicacions que fem servir cada dia com: WhatsApp, YouTube, els navegadors web, jocs, aplicacions bancàries o fins i tot els semàfors i els caixers automàtics.
 
 
-### 1.1. Llenguatges de programació
+## 1.1. Llenguatges de programació
 
 Per fer-ho, s’utilitzen llenguatges de programació, com el Python, que són maneres especials d’escriure aquestes instruccions.
 
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/82c11b08-a708-4211-b8fe-fb4fb1ccbed6" />
 (Font: https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)
 
+
 **Python** és conegut per la seva sintaxi clara i llegible, cosa que facilita l'escriptura i el manteniment del codi. Això, juntament amb la seva extensa biblioteca estàndard i una activa comunitat de desenvolupadors, el converteix en una excel·lent opció per al desenvolupament web.
 
+[Versions de Python](https://devguide.python.org/versions/ "Versions de Python")
 
 
-
-### 1.2. Exemple de Recepta de cuina
+## 1.2. Exemple de Recepta de cuina
 
 
 La programació és molt semblant a escriure una recepta de cuina, però en un llenguatge que l’ordinador pot entendre.
@@ -50,7 +51,7 @@ Quan cuinem, donem instruccions clares i ordenades perquè qui segueixi la recep
 Aquesta recepta funciona perquè cada pas és clar i ordenat.
 
 
-### 1.3. Recepta en Python
+## 1.3. Recepta en Python
 
 Veiem com quedaria la recepta de la truita de patates en Python:
 
@@ -89,7 +90,7 @@ Així com un cuiner segueix una recepta, l’ordinador segueix el codi.
 I si un pas és incorrecte o està fora d’ordre, el "plat" final —el resultat del programa— pot sortir malament.
 
 
-### 1.4. Per què el llenguatge Python?
+## 1.4. Per què el llenguatge Python?
 
 Python és un dels llenguatges de programació més utilitzats al món. I és ideal per començar perquè:
 
@@ -115,7 +116,7 @@ L'important de la programació són els conceptes que anirem treballant donat qu
 
 
 
-### 1.5. Què aprendrem quan aprenem a programar?
+## 1.5. Què aprendrem quan aprenem a programar?
 
 Al començar a programar, aniràs aprenent:
 
@@ -135,8 +136,12 @@ Tothom hauria d'apendre a programar, Això t'ensenya a pensar.
 * Perquè pots crear coses útils: des d’una petita eina per calcular despeses fins a un joc o una pàgina web.
 
 
-### 1.8. En resum
+## 1.6. Resum
 
 Programar no és només per informàtics. És una eina que pot fer servir qualsevol persona, com qui aprèn a fer vídeos, editar fotos o cuinar. 
 
 Amb ganes i pràctica, tu també pots programar.
+
+## 1.7 Entorn de programació
+
+Recomanem programar amb **Visual Studio Code**, encara que hi ha molts IDE (Entorn de desenvolupament), aquest és utilitzat per molts desenvolupadors professionals i inclou moltes extensions i s'utilitza per molts llenguatges.
