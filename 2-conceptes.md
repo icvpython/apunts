@@ -59,10 +59,9 @@ TEMPERATURA_FOC = 180
 
 
 
-## 1.3. Tipus de valors: mida i sabor dels ingredients
+## 1.3. Tipus de variables
 
-Python és un llenguatge dinàmic: el pot es fa a mida de l’ingredient que hi poses. Això vol dir que no cal declarar el tipus de variable
-abans d’utilitzar-la. L’ordinador dedueix quin tipus de dada estàs utilitzant en funció del valor que li assignis.
+Python és un llenguatge dinàmic: el pot es fa a mida de l’ingredient que hi poses. Això vol dir que **no cal declarar el tipus de variable** abans d’utilitzar-la. L’ordinador dedueix quin tipus de dada estàs utilitzant en funció del valor que li assignis.
 
 |Tipus bàsic | Descripció | Exemple “truitaire” |
 |---|---|---|
@@ -78,6 +77,20 @@ patates = 3         # Python sap que això és un nombre sencer (int)
 oli_ml = 75.5       # Aquí reconeix un número decimal (float)
 chef = "Ada"        # Una cadena de text (str)
 vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
+```
+
+|Tipus complexes | Descripció | Exemple |
+|---|---|---|
+|binari|Amb prefix 0b |binari = 0b1101|
+|octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
+|hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
+
+Podem transformar els tipus començant pels 3 símbols `>>>`, per exemple:
+```Python
+>>>hex(10)      # convertim el 10 decimal a hexadecimal
+>>>bin(8)    # ara convertim de decimal a binari i ens retornarà '0b1000'
+>>>int(0xb)  # convertim de hexadecimal a decimal
+>>>int(0b1000)  # convertim de binari a decimal
 ```
 
 Aquest comportament és molt flexible i útil: ens estalvia haver de dir explícitament quin tipus de dada és cada variable. Però, com a bons cuiners, cal vigilar què barregem a l’olla.
