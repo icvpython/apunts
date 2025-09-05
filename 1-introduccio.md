@@ -19,7 +19,7 @@ Per fer-ho, s’utilitzen llenguatges de programació, com el Python, que són m
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/82c11b08-a708-4211-b8fe-fb4fb1ccbed6" />
 (Font: https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)
 
-Python és conegut per la seva sintaxi clara i llegible, cosa que facilita l'escriptura i el manteniment del codi. Això, juntament amb la seva extensa biblioteca estàndard i una activa comunitat de desenvolupadors, el converteix en una excel·lent opció per al desenvolupament web.
+**Python** és conegut per la seva sintaxi clara i llegible, cosa que facilita l'escriptura i el manteniment del codi. Això, juntament amb la seva extensa biblioteca estàndard i una activa comunitat de desenvolupadors, el converteix en una excel·lent opció per al desenvolupament web.
 
 
 
