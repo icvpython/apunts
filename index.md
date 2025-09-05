@@ -17,3 +17,5 @@
 4. [Entrada i sortida per pantalla: funcions print() i input()](4-entrada_sortida_input_print.md)
 5. [Estructures](5-estructures.md)
 6. [Funcions](5-funcions.md)
+---
+[Exercicis resolts](exercicis_resolts.md)
