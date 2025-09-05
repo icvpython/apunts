@@ -145,3 +145,4 @@ Amb ganes i pràctica, tu també pots programar.
 ## 1.7 Entorn de programació
 
 Recomanem programar amb **Visual Studio Code**, encara que hi ha molts IDE (Entorn de desenvolupament), aquest és utilitzat per molts desenvolupadors professionals i inclou moltes extensions i s'utilitza per molts llenguatges.
+[Guia d'instal·lació de VS Code a Ubuntu](/instal.md#vs-code)
