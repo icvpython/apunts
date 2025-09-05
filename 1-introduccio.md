@@ -16,18 +16,18 @@ Gràcies a la programació s'han creat totes les aplicacions que fem servir cada
 
 Per fer-ho, s’utilitzen llenguatges de programació, com el Python, que són maneres especials d’escriure aquestes instruccions.
 
-Encara que al principi pot semblar complicat, la programació es pot aprendre com qualsevol altra habilitat, i permet crear des de
-coses molt senzilles fins a aplicacions molt potents.
+<img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/82c11b08-a708-4211-b8fe-fb4fb1ccbed6" />
+(Font: https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)
+
+Python és conegut per la seva sintaxi clara i llegible, cosa que facilita l'escriptura i el manteniment del codi. Això, juntament amb la seva extensa biblioteca estàndard i una activa comunitat de desenvolupadors, el converteix en una excel·lent opció per al desenvolupament web.
 
 
-És com escriure una recepta pas a pas, però en un llenguatge que
-l’ordinador pot entendre.
 
 
-### 1.2. Recepta de cuina
+### 1.2. Exemple de Recepta de cuina
 
 
-La programació és molt semblant a escriure una recepta de cuina. 
+La programació és molt semblant a escriure una recepta de cuina, però en un llenguatge que l’ordinador pot entendre.
 
 Quan cuinem, donem instruccions clares i ordenades perquè qui segueixi la recepta obtingui el plat desitjat. De la mateixa manera programar vol dir donar ordres molt precises a un ordinador perquè faci exactament el que volem. Per exemple, imagina que volem fer una truita de patates:
 
@@ -52,7 +52,7 @@ Aquesta recepta funciona perquè cada pas és clar i ordenat.
 
 ### 1.3. Recepta en Python
 
-A mode exemple, veiem com quedaria la recepta de la truita de patates en Python:
+Veiem com quedaria la recepta de la truita de patates en Python:
 
 ```Python
 def fer_truita_de_patates():
@@ -89,20 +89,7 @@ Així com un cuiner segueix una recepta, l’ordinador segueix el codi.
 I si un pas és incorrecte o està fora d’ordre, el "plat" final —el resultat del programa— pot sortir malament.
 
 
-### 1.4. És difícil programar?
-
-
-No. Com tot el que és nou, pot semblar complicat al principi, però es pot aprendre pas a pas. 
-
-No cal ser un expert en matemàtiques ni tenir un gran coneixement tècnic. ç
-
-Només cal ganes d’aprendre, paciència i curiositat.
-
-Pensa-hi així: Ningú neix sabent cuinar ni muntar un moble, però amb instruccions clares, ho pots fer. Programar és igual.
-
-
-
-### 1.5. Per què el llenguatge Python?
+### 1.4. Per què el llenguatge Python?
 
 Python és un dels llenguatges de programació més utilitzats al món. I és ideal per començar perquè:
 
@@ -128,19 +115,16 @@ L'important de la programació són els conceptes que anirem treballant donat qu
 
 
 
-### 1.6. Què aprendrem quan aprenem a programar?
+### 1.5. Què aprendrem quan aprenem a programar?
 
 Al començar a programar, aniràs aprenent:
 
-* Com funciona un ordinador de manera bàsica.
 * Com pensar pas a pas per resoldre problemes (pensament lògic).
 * Com crear petits programes útils o divertits.
 * Com entendre els errors i corregir-los (provar, equivocar-se i aprendre).
+* Com funciona un ordinador de manera bàsica.
 
 Donat que només a base de picar codi i provar-ho es va aprenent com funciona, això que fem a l'igual quan entrenem el cos en qualsevol esport anem coneixent els nostres límits i capacitats.
-
-
-### 1.7. Per què aprendre a programar?
 
 ![Steve Jobs](imatges/steve.png)
 
