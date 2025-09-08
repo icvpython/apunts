@@ -1,6 +1,3 @@
-
-
-
 #  2.- Conceptes bàsics de programació: Variables i operadors
 
 ## 1. Variables
@@ -29,9 +26,6 @@ papates = 3     # tres papates mitjanes
 * El valor (4, 3, …) pot canviar quan vulguis: el pot és reutilitzable.
 
 
-
-
-
 ## 1.2. Constants: els ingredients “intocables”
 
 En moltes receptes (i també en programació) hi ha valors que no haurien de canviar mai.
@@ -57,8 +51,6 @@ TEMPERATURA_FOC = 180
 |Constant|No|OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
 
 
-
-
 ## 1.3. Tipus de variables
 
 Python és un llenguatge dinàmic: el pot es fa a mida de l’ingredient que hi poses. Això vol dir que **no cal declarar el tipus de variable** abans d’utilitzar-la. L’ordinador dedueix quin tipus de dada estàs utilitzant en funció del valor que li assignis.
@@ -69,7 +61,6 @@ Python és un llenguatge dinàmic: el pot es fa a mida de l’ingredient que hi 
 |float|Nombre |decimaloli_ml = 75.5|
 |str|Cadena de text|chef = "Ada"|
 |bool|Booleà (True/False)|vol_ceba = True|
-
 
 
 ```Python
@@ -83,14 +74,14 @@ vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
 |---|---|---|
 |Cadenas|	str	|String o cadena de caràcters | "Python", "Hola mundo"|
 |Listas|	list	|Seqüències ordenades d'objetes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
-|Tuplas***|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
-|Conjuntos***|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
-|Diccionarios***|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
+|Tuplas **#**|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
+|Conjuntos **#**|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
+|Diccionarios **#**|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
 |binari|Amb prefix 0b |binari = 0b1101|
 |octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
 |hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
 
-*** No els aprendràs aquest curs.
+**#** No els aprendràs aquest curs.
 
 Podem transformar els tipus començant pels 3 símbols `>>>`, per exemple:
 ```Python
@@ -108,10 +99,6 @@ Recorda: una variable **pot canviar de valor i de tipus**
 oli_ml = 75.5       # float
 oli_ml = "molt"     # ara és string!
 ```
-
-
-
-
 ## 1.4. Com escollir un bon nom de variable
 
 Igual que no etiquetes un pot de sucre com "salsa picant", en programació posar bons noms a les variables és fonamental.
@@ -136,9 +123,7 @@ patates_2 = 2   # Bé
 2patates = 2   # Malament
 ```
 
-
 Python no entén noms que comencin per un número. Si ho fas, rebràs un “SyntaxError” que sona com una alarma de forn massa calent.
-
 
 
 **3. Sense espais en blanc:**
@@ -164,8 +149,6 @@ nom_del_duiner = "Ada"
 temps_de_coccio = 8
 patates_tallades = 12
 ```
-
-
 
 ## 1.5. Modificar variables
 
@@ -233,3 +216,6 @@ oli_ml += 25    # Afegim més oli per evitar que s'enganxi
 Aquestes formes són molt útils per receptes variables: quan cuines per un nombre de persones que pot canviar, o quan vols ajustar
 quantitats segons el gust del cuiner (amb o sense ceba, per exemple).
 
+---
+
+<div style="text-align: right"><a href="/2-conceptes.md/1-variables"> 2.1. Variables →</a> </div>

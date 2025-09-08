@@ -1,5 +1,3 @@
-
-
 # 1.- Introducció
 
 La programació és com donar instruccions molt precises a un ordinador perquè faci el que volem: 
@@ -153,3 +151,6 @@ Amb ganes i pràctica, tu també pots programar.
 
 Recomanem programar amb **Visual Studio Code**, encara que hi ha molts IDE (Entorn de desenvolupament), aquest és utilitzat per molts desenvolupadors professionals i inclou moltes extensions i s'utilitza per molts llenguatges.
 [Guia d'instal·lació de VS Code a Ubuntu](/instal.md#vs-code)
+
+---
+<div style="text-align: right"><a href="/2-conceptes.md"> 2. Conceptes bàsics: Variables i operadors →</a> </div>
