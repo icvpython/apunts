@@ -153,4 +153,11 @@ Recomanem programar amb **Visual Studio Code**, encara que hi ha molts IDE (Ento
 [Guia d'instal·lació de VS Code a Ubuntu](/instal.md#vs-code)
 
 ---
-<div style="text-align: right"><a href="/apunts/2-conceptes.html"> 2. Conceptes bàsics: Variables i operadors →</a> </div>
+
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span></span>
+       <span><a href="/apunts">Índex</a></span>
+       <span><a href="/apunts/2-conceptes.html">2. Conceptes bàsics: Variables i operadors →</a></span>
+</p>
+</div>

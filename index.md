@@ -1,6 +1,6 @@
 
 # Taula de continguts
-1. [Introduccio](1-introduccio.md)
+1. [Introducció](1-introduccio.md)
 2. [Conceptes bàsics: Variables i operadors](2-conceptes.md)
 
      2.1. [Variables](2-conceptes.md#1-variables)
