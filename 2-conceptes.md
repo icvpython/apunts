@@ -218,4 +218,4 @@ quantitats segons el gust del cuiner (amb o sense ceba, per exemple).
 
 ---
 
-<div style="text-align: right"><a href="/2-conceptes.md/1-variables"> 2.1. Variables →</a> </div>
+<div style="text-align: right"><a href="/apunts/3-control_flux.html"> 3. Control de flux: Condicionals i bucles →</a> </div>

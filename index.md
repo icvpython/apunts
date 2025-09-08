@@ -3,9 +3,9 @@
 1. [Introduccio](1-introduccio.md)
 2. [Conceptes bàsics: Variables i operadors](2-conceptes.md)
 
-     2.1. [Variables](/2-conceptes.md/1-variables)
+     2.1. [Variables](2-conceptes.md#1-variables)
 
-     2.2. [Operadors](/2-conceptes.md/2-operadors)
+     2.2. [Operadors](2-conceptes.md#2-operadors)
 
 
    
