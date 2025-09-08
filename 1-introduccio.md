@@ -15,6 +15,7 @@ Gràcies a la programació s'han creat totes les aplicacions que fem servir cada
 Per fer-ho, s’utilitzen llenguatges de programació, com el Python, que són maneres especials d’escriure aquestes instruccions.
 
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/82c11b08-a708-4211-b8fe-fb4fb1ccbed6" />
+
 *[Font](https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)*
 
 
