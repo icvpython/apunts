@@ -1,4 +1,4 @@
-# 5.- Estructures de dades bàsiques.
+# 5. Estructures de dades bàsiques.
 
 Les estructures de dades bàsiques de Python, és a dir, les eines que ens permeten emmagatzemar, organitzar i manipular col·leccions de dades d'una manera eficient i senzilla.
 
@@ -10,7 +10,7 @@ L'objectiu d'aquest apartat és veure:
 
 
 
-## 5.1.- Tipus d'estructures
+## 5.1. Tipus d'estructures
 
 Cadascuna de les estructures que hi ha tenen una sintaxi diferent i, per tant, també tenen unes característiques o propietats diferents, això ens permetrà escollir entre diferents opcions depenent de l'ús que vulguem fer-hi.
 
@@ -35,7 +35,7 @@ A continuació teniu els diferents tipus d'estructures de dades que podem utilit
     ```
 
 
-### 5.1.1.- Llistes
+### 5.1.1. Llistes
 Les llistes són col·leccions ordenades i modificables d’elements. 
 
 Poden contenir números, textos o qualsevol altre tipus de dades,
@@ -75,7 +75,7 @@ Recordeu que el text escrit després de # són comentaris i, per tant, no afecte
 
 
 
-### 5.1.2.- Tuples
+### 5.1.2. Tuples
 
 Les tuples són col·leccions ordenades però immutables, és a dir, no es poden modificar després de ser creades. Són útils per representar dades fixes (com coordenades o dies de la setmana). 
 
@@ -94,7 +94,7 @@ print(dies[1])             # Mostra "dimarts"
 
 
 
-### 5.1.3.- Diccionaris
+### 5.1.3. Diccionaris
 
 Els diccionaris són col·leccions ordenades (a partir de la versió de Python 3.7), on cada element té una clau i un valor. Són molt útils per emmagatzemar informació relacionada, com per exemple les dades d’un alumne. Algunes de les característiques dels diccionaris són els següents:
 
@@ -123,7 +123,7 @@ En aquest cas tenim una clau anomenada "nom" i un valor "Carla", el qual el pode
 |.items() | Retorna una llista de tuples amb cada parella (clau, valor).|
 
 
-### 5.1.4.- Conjunts
+### 5.1.4. Conjunts
 
 Els conjunts són col·leccions no ordenades i sense elements duplicats. Són útils per fer operacions com la unió, intersecció o diferència entre col·leccions.
 

@@ -1,6 +1,6 @@
-#  2.- Conceptes bàsics de programació: Variables i operadors
+#  2. Conceptes bàsics de programació: Variables i operadors
 
-## 1. Variables
+## 2.1. Variables
 
 Les **variables i els operadors aritmètics** són la base de qualsevol recepta de codi.
 
@@ -11,7 +11,7 @@ Sense aquest duet essencial, pots i estris, no existirien els comptes enrere del
 En aquest capítol veurem com declarar variables amb sentit, canviar‐les al vol i aplicar els set operadors bàsics (+ - * / // % **) a exemples tan quotidians com ajustar el temps de cocció o repartir porcions. Deixarem l’ordinador batent, sumant i dividint per nosaltres, i tu, mentrestant, podràs concentrar‐te en l’olor de la truita acabada de girar.
 
 
-## 1.1. Què és una variable?
+## 2.1.1. Què és una variable?
 
 Una variable és un espai de memòria amb un nom, un pot digital, que pot contenir un valor. A Python, crear-la és tan senzill com enganxar una etiqueta al pot i omplir-lo:
 
@@ -26,7 +26,7 @@ papates = 3     # tres papates mitjanes
 * El valor (4, 3, …) pot canviar quan vulguis: el pot és reutilitzable.
 
 
-## 1.2. Constants: els ingredients “intocables”
+## 2.1.2. Constants: els ingredients “intocables”
 
 En moltes receptes (i també en programació) hi ha valors que no haurien de canviar mai.
 
@@ -51,7 +51,7 @@ TEMPERATURA_FOC = 180
 |Constant|No|OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
 
 
-## 1.3. Tipus de variables
+## 2.1.3. Tipus de variables
 
 Python és un llenguatge dinàmic: el pot es fa a mida de l’ingredient que hi poses. Això vol dir que **no cal declarar el tipus de variable** abans d’utilitzar-la. L’ordinador dedueix quin tipus de dada estàs utilitzant en funció del valor que li assignis.
 
@@ -74,14 +74,14 @@ vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
 |---|---|---|
 |Cadenas|	str	|String o cadena de caràcters | "Python", "Hola mundo"|
 |Listas|	list	|Seqüències ordenades d'objetes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
-|Tuplas **#**|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
-|Conjuntos **#**|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
-|Diccionarios **#**|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
+|Tuplas **\***|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
+|Conjuntos **\***|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
+|Diccionarios **\***|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
 |binari|Amb prefix 0b |binari = 0b1101|
 |octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
 |hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
 
-**#** No els aprendràs aquest curs.
+**\*** No els aprendràs aquest curs.
 
 Podem transformar els tipus començant pels 3 símbols `>>>`, per exemple:
 ```Python
@@ -99,7 +99,7 @@ Recorda: una variable **pot canviar de valor i de tipus**
 oli_ml = 75.5       # float
 oli_ml = "molt"     # ara és string!
 ```
-## 1.4. Com escollir un bon nom de variable
+## 2.1.4. Com escollir un bon nom de variable
 
 Igual que no etiquetes un pot de sucre com "salsa picant", en programació posar bons noms a les variables és fonamental.
 T’imagines llegir una recepta on en lloc de ous_batuts et posen ob? O pitjor encara: que et diguin que el pas 3 és "fer coses amb x1x2x3"?
@@ -150,7 +150,7 @@ temps_de_coccio = 8
 patates_tallades = 12
 ```
 
-## 1.5. Modificar variables
+## 2.1.5. Modificar variables
 
 Una de les grans virtuts de les variables és que no són definitives. Pots canviar el seu valor tantes vegades com vulguis durant l’execució del programa.
 
@@ -163,9 +163,9 @@ ous = ous + 2
 print(ous)      # 6
 ```
 
-# 2. Operadors
+# 2.2. Operadors
 
-## 2.1 Operadors aritmètics
+## 2.2.1 Operadors aritmètics
 
 |Operador | Descripció | Exemple |
 |---|---|---|
@@ -177,7 +177,7 @@ print(ous)      # 6
 |%	|Módulo |	5 % 2 (= 1)|
 |**	|Exponenciación	|2 ** 3 (= 8)|
 
-## 2.2 Operadors relacionals
+## 2.2.2 Operadors relacionals
 |Operador | Descripció | Exemple |
 |---|---|---|
 |==|	Igual	|(3 + 1) == (2 ** 2)|
@@ -187,7 +187,7 @@ print(ous)      # 6
 |>=|	Mayor o igual que|	3 >= (2 + 1)|
 |<=|	Menor o igual que|	2 <= 5|
 
-## 2.3 Operadors lògics
+## 2.2.3 Operadors lògics
 
 |Operador | Descripció | Exemple |
 |---|---|---|

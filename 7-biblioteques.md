@@ -23,9 +23,14 @@ En la taula següent pots observar uns exemples de funcions integrades i el seu 
 | sorted() | Retorna una llista ordenada | sorted([4, 2, 7]) | [2, 4, 7] |
 |input() | Permet llegir una entrada de l’usuari | input("Nom? ") | (El programa demana a l'usuari que introdueixi una cadena de text) |
 
+---
 
-
-
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span><a href="/apunts/6-funcions.html">← 6. Funcions</a></span>
+       <span><a href="/apunts">Índex</a></span>
+</p>
+</div>
 
 
 

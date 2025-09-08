@@ -1,8 +1,6 @@
+# 3. Estructures de control de flux: Condicionals i bucles.
 
-
-## 3.- Estructures de control de flux: Condicionals i bucles.
-
-# **1. Introducció general al control de flux en Python**
+## 3.1. Introducció general al control de flux en Python
 
 Quan cuinem, no seguim sempre una recepta estricta. Observem què tenim a la nevera, prenem decisions sobre la marxa i adaptem
 la preparació segons els ingredients, el temps o el gust del moment. En programació, fem exactament el mateix: prenem decisions i repetim accions segons les condicions i les dades disponibles.
@@ -26,7 +24,7 @@ I si ha d’esperar fins que l’aigua bulli, això seria un bucle while.
 Vegem ara, pas a pas, aquestes estructures de control de flux en Python amb analogies culinàries.
 
 
-## 1.1. Condicionals: if, elif, else
+## 3.1.1. Condicionals: if, elif, else
 
 Aquesta estructura permet prendre decisions. El programa revisa si es compleix una condició (if) i, segons el cas, executa un bloc de codi. Si la primera condició no es compleix, pot mirar altres opcions (elif), i si cap condició es compleix, hi ha una última acció per defecte `else`.
 
@@ -55,7 +53,7 @@ Això permet al programa actuar de manera flexible segons el context.
 
 
 
-## 1.2. match: selecció estructurada (com un switch modern)
+## 3.1.2. match: selecció estructurada (com un switch modern)
 
 La instrucció `match` és una característica més nova de Python (disponible des de la versió 3.10). Permet comprovar múltiples valors possibles d’una sola variable, d’una manera molt llegible. És molt útil quan tens moltes opcions a triar segons un sol element.
 
@@ -89,7 +87,7 @@ Aquesta estructura és ideal quan una sola variable pot tenir molts valors difer
 
 
 
-## 1.3 Bucles
+## 3.1.3 Bucles
 
 ### Bucle for
 
@@ -108,10 +106,6 @@ for volta in range(5):
 * range(5) genera els nombres del 0 al 4 (és a dir, 5 voltes).
 * A cada volta, la variable volta conté el número actual de la repetició.
 * Sumem +1 perquè als humans ens agrada comptar des de l’1, no des de l’0.
-
-
-
-
 
 ### Bucle while
 
@@ -137,10 +131,7 @@ Explicació detallada:
 Aquest tipus de bucle és molt útil quan volem esperar una “condició real”, com un temporitzador, una acció de l’usuari o un estat físic.
 
 
-
-
-
-## **1.5.Resum**
+## 3.1.5.Resum
 
 Python ens proporciona estructures senzilles però molt potents per fer això:
 
