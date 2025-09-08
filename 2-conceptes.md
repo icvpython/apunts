@@ -221,7 +221,7 @@ quantitats segons el gust del cuiner (amb o sense ceba, per exemple).
 <div style="justify-content: space-between;">
 <p style="display:inline; display: flex; justify-content: space-between; width: auto;">
        <span><a href="/apunts/1-introduccio.html">← 1. Introducció</a></span>
-       <span><a href="/apunts">Índex</a></span>s
+       <span><a href="/apunts">Índex</a></span>
        <span><a href="/apunts/3-control_flux.html">3. Control de flux: Condicionals i bucles →</a></span>
 </p>
 </div>

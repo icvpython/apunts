@@ -1,27 +1,22 @@
+# 5.- Funcions i modularitat.
 
+## 5.1. Funcions declaratives
 
-
-
-## 5.- Funcions i modularitat.
-
-
-
-1.3. Funcions declaratives
 Les funcions declaratives (o funcions definides per l’usuari) són aquelles que es creen explícitament en el nostre codi per fer una
 tasca concreta. A diferència de les funcions integrades que ja venen amb Python (print(), len(), sum()...), les declaratives les
 definim nosaltres mateixos, segons les necessitats del nostre programa.
 És com escriure la teva pròpia "recepta" personalitzada per resoldre un problema. La sintaxi d'una funció és la següent:
-• La paraula def serveix per indicar que estàs definint una funció.
-• El nom de la funció ha de seguir les regles habituals dels noms (sense espais, començant per lletra...).
-• Els paràmetres (entre parèntesis) són opcionals: poden haver-n'hi o no.
-• El cos de la funció (les instruccions) s’escriu amb sagnat (indentació).
+- La paraula def serveix per indicar que estàs definint una funció.
+- El nom de la funció ha de seguir les regles habituals dels noms (sense espais, començant per lletra...).
+- Els paràmetres (entre parèntesis) són opcionals: poden haver-n'hi o no.
+- El cos de la funció (les instruccions) s’escriu amb sagnat (indentació).
 
 
 Ve a ser una plantilla, com en els documents de text evita repetir codi 
-
-def nom_de_la_funcio(paràmetres):
-    # instruccions que executarà
-
+```
+    def nom_de_la_funcio(paràmetres):
+        # instruccions que executarà
+```
 
 
 1.4. Cridar una funció

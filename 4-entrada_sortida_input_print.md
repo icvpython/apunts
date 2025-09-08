@@ -1,12 +1,12 @@
 # 4. Entrades i sortida per pantalla: les funcions input() i print()
 
-## 4.1 Entrada de teclat en Python: la funció `input()`
+## 4.1 Entrada de teclat en Python
 
 No hi ha molts programes sense cap entrada. L'entrada pot venir d'una base de dades, una altra computadora, clics i moviments del ratolí o des d'Internet. Tot i així, en la majoria dels casos, l'entrada prové del teclat. A aquest efecte, Python proporciona l'entrada de la funció `input()`.
 
 Si es crida a la funció `input()`, el flux del programa es detindrà fins que l'usuari hagi donat una entrada i hagi finalitzat l'entrada amb la tecla de retorn. El text del paràmetre és opcional i serà imprès a la pantalla. L'entrada de l'usuari serà retornada com una cadena. Si aquesta cadena s’ha de transformar en un altre tipus de dada, podem utilitzar una funció de càsting o la funció `eval`.
 
-## Exemple bàsic d'ús
+### Exemple bàsic d'ús
 
 ```Python
 nom = input("Escriu el teu nom: ")
@@ -14,7 +14,7 @@ print("Hola " + nom + "!")
 ```
 
 
-## Entrada numèrica
+### Entrada numèrica
 
 La funció `input()` retorna sempre una cadena de text (`str`). Si vols treballar amb nombres, cal transformar la cadena al tipus adequat amb `int()` o `float()`:
 
@@ -24,7 +24,7 @@ print("Tens ", edat, " anys.")
 ```
 
 
-## Operacions matemàtiques amb l'input
+### Operacions matemàtiques amb l'input
 
 Si l’usuari introdueix un nombre i després el vols utilitzar per càlculs, has de transformar-lo:
 
@@ -35,7 +35,7 @@ print("La meitat és:", mitat)
 ```
 
 
-## Exemple combinat
+### Exemple combinat
 
 ```Python
 nom = input("Quin és el teu nom? ")
@@ -46,13 +46,13 @@ print("Encara tens " + edat + " anys, " + nom + "!")
 
 
 
-# 4.2 Sortida per pantalla amb la funció print ()
+# 4.2 Sortida per pantalla
 La sortida estàndard d’un programa és la pantalla, i python te una instrucció per a imprimir per 
 pantalla que és `print` i com a funció anirà acompanyada de parèntesi i esperarà un o més arguments.
 Aquesta funció pot imprimir números, cadenes, caràcters,...
 També permet donar-li format a la sortida.
 
-**Exemples**
+### Exemples
 
 ```Python
 nom = "Eva"
@@ -79,7 +79,7 @@ for nom in ("Joan", "Pere", "Francesc", "Oscar", "Rafa"):
 #'Art: 453, Price: 59.1'
 ```
 
-**Exemples de print amb el paràmetre END**
+### Exemples de print amb el paràmetre END
 
 ```Python
 print ("hola ",end=" +") # imprimirà hola + i acaba amb un espai
@@ -96,3 +96,13 @@ print("la classe de programació", end = ' ')
 - **input()** recull text des del teclat i l’assigna a una variable.
 - Si vols utilitzar l’entrada com a nombre, cal convertir la cadena amb **int()** o **float()**.
 - Pots mostrar un missatge a l’usuari directament com a paràmetre de **input()**.
+
+---
+
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span><a href="/apunts/3-control_flux.html">← 3. Control de flux: Condicionals i bucles</a></span>
+       <span><a href="/apunts">Índex</a></span>
+       <span><a href="/apunts/5-estructures.html">5. Estructures →</a></span>
+</p>
+</div>

@@ -2,7 +2,8 @@
 
 ## 3.- Estructures de control de flux: Condicionals i bucles.
 
-**1. Introducció general al control de flux en Python**
+# **1. Introducció general al control de flux en Python**
+
 Quan cuinem, no seguim sempre una recepta estricta. Observem què tenim a la nevera, prenem decisions sobre la marxa i adaptem
 la preparació segons els ingredients, el temps o el gust del moment. En programació, fem exactament el mateix: prenem decisions i repetim accions segons les condicions i les dades disponibles.
 
@@ -25,7 +26,7 @@ I si ha d’esperar fins que l’aigua bulli, això seria un bucle while.
 Vegem ara, pas a pas, aquestes estructures de control de flux en Python amb analogies culinàries.
 
 
-# 1.1. Condicionals: if, elif, else
+## 1.1. Condicionals: if, elif, else
 
 Aquesta estructura permet prendre decisions. El programa revisa si es compleix una condició (if) i, segons el cas, executa un bloc de codi. Si la primera condició no es compleix, pot mirar altres opcions (elif), i si cap condició es compleix, hi ha una última acció per defecte `else`.
 
@@ -54,7 +55,7 @@ Això permet al programa actuar de manera flexible segons el context.
 
 
 
-# 1.2. match: selecció estructurada (com un switch modern)
+## 1.2. match: selecció estructurada (com un switch modern)
 
 La instrucció `match` és una característica més nova de Python (disponible des de la versió 3.10). Permet comprovar múltiples valors possibles d’una sola variable, d’una manera molt llegible. És molt útil quan tens moltes opcions a triar segons un sol element.
 
@@ -88,8 +89,9 @@ Aquesta estructura és ideal quan una sola variable pot tenir molts valors difer
 
 
 
+## 1.3 Bucles
 
-# 1.3. Bucle for
+### Bucle for
 
 El bucle `for` s’utilitza per repetir una acció un nombre determinat de vegades. No cal que tinguem una llista; simplement podem dir:
 
@@ -111,7 +113,7 @@ for volta in range(5):
 
 
 
-# 1.4. Bucle while
+### Bucle while
 
 El bucle `while` repeteix una acció mentre una condició sigui certa. És ideal quan no saps exactament quantes vegades hauràs de repetir una acció. Com remenar una salsa fins que quedi espessa.
 
@@ -138,7 +140,7 @@ Aquest tipus de bucle és molt útil quan volem esperar una “condició real”
 
 
 
-**1.5.Resum**
+## **1.5.Resum**
 
 Python ens proporciona estructures senzilles però molt potents per fer això:
 
@@ -148,3 +150,13 @@ Python ens proporciona estructures senzilles però molt potents per fer això:
 * while per repetir accions segons condicions dinàmiques
 
 Amb aquests ingredients, pots cuinar qualsevol recepta digital.
+
+---
+
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span><a href="/apunts/2-conceptes.html">← 2. Conceptes bàsics: Variables i operadors</a></span>
+       <span><a href="/apunts">Índex</a></span>
+       <span><a href="/apunts/4-entrada_sortida_input_print.html">4. Entrada i sortida per pantalla →</a></span>
+</p>
+</div>
