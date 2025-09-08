@@ -31,6 +31,7 @@ La programació és molt semblant a escriure una recepta de cuina, però en un l
 Quan cuinem, donem instruccions clares i ordenades perquè qui segueixi la recepta obtingui el plat desitjat. De la mateixa manera programar vol dir donar ordres molt precises a un ordinador perquè faci exactament el que volem. Per exemple, imagina que volem fer una truita de patates:
 
 **Recepta:** Truita de patates
+
 **Ingredients:**
 - 2 patates
 - Mitja ceba
