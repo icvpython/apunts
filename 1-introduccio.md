@@ -17,7 +17,7 @@ Gràcies a la programació s'han creat totes les aplicacions que fem servir cada
 Per fer-ho, s’utilitzen llenguatges de programació, com el Python, que són maneres especials d’escriure aquestes instruccions.
 
 <img width="1200" height="627" alt="image" src="https://github.com/user-attachments/assets/82c11b08-a708-4211-b8fe-fb4fb1ccbed6" />
-(Font: https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)
+*[Font](https://www.swhosting.com/ca/blog/principals-llenguatges-de-programacio-web)*
 
 
 **Python** és conegut per la seva sintaxi clara i llegible, cosa que facilita l'escriptura i el manteniment del codi. Això, juntament amb la seva extensa biblioteca estàndard i una activa comunitat de desenvolupadors, el converteix en una excel·lent opció per al desenvolupament web.
@@ -33,6 +33,13 @@ La programació és molt semblant a escriure una recepta de cuina, però en un l
 Quan cuinem, donem instruccions clares i ordenades perquè qui segueixi la recepta obtingui el plat desitjat. De la mateixa manera programar vol dir donar ordres molt precises a un ordinador perquè faci exactament el que volem. Per exemple, imagina que volem fer una truita de patates:
 
 **Recepta:** Truita de patates
+**Ingredients:**
+- 2 patates
+- Mitja ceba
+- Oli
+- 4 ous
+
+**Procediment:**
 1. Pela 2 patates.
 2. Talla les patates a rodanxes fines.
 3. Pela i talla mitja ceba.
@@ -59,8 +66,8 @@ Veiem com quedaria la recepta de la truita de patates en Python:
 def fer_truita_de_patates():
     patates = ["patata1", "patata2"]
     ceba = "mitja ceba"
-    ous = 4
     oli = "oli d'oliva"
+    ous = 4
 
     print("1. Pelar les patates.")
     print("2. Tallar les patates a rodanxes fines.")

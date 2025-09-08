@@ -83,14 +83,14 @@ vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
 |---|---|---|
 |Cadenas|	str	|String o cadena de caràcters | "Python", "Hola mundo"|
 |Listas|	list	|Seqüències ordenades d'objetes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
-|Tuplas [^1]|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
-|Conjuntos[^1]|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
-|Diccionarios[^1]|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
+|Tuplas***|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
+|Conjuntos***|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
+|Diccionarios***|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
 |binari|Amb prefix 0b |binari = 0b1101|
 |octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
 |hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
 
-[^1]: No els aprendràs aquest curs.
+*** No els aprendràs aquest curs.
 
 Podem transformar els tipus començant pels 3 símbols `>>>`, per exemple:
 ```Python
