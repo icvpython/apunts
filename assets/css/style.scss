@@ -3,11 +3,11 @@
 
 @import "{{ site.theme }}";
 .inner {
-  max-width: 90%;
+  max-width: 80%;
 }
 #project_title {
     text-align: center;
 }
-p + img  {
+p:has(img) {
   text-align: center;
 }
