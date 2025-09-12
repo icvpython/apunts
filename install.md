@@ -89,11 +89,14 @@ VS Code té un suport integrat per a frameworks de testing de Python com **Pytes
 Processing és un entorn gràfic que funciona executant codi en Python i l'utilitzarem per fer tasques fora de l'entorn de consola.
 
 1.  **Obre el terminal** (`Ctrl + Alt + T`).
-2. Introdueix la següent comanda:
+2. Instal·la processing:
 
     ```bash
     sudo snap install processing --classic
     ```
+3. Obre processing in pulsa a on posa java a adalt a la dreta i selecciona l'opció "gestionar modes".
+4. Instal·la el mode de Python
+![Mode Python](imatges/python_mode.png)
 
 
 Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
