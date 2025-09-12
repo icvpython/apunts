@@ -96,7 +96,7 @@ Processing és un entorn gràfic que funciona executant codi en Python i l'utili
     ```
 3. Obre processing in pulsa a on posa java a adalt a la dreta i selecciona l'opció "gestionar modes".
 4. Instal·la el mode de Python
-![Mode Python](imatges/python_mode.png)
+    ![Mode Python](imatges/python_mode.png)
 
 
 Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
