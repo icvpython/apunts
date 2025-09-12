@@ -32,4 +32,6 @@
 
 ---
 
+[Instal·lació de Python i Visual Studio Code](instal.md)
+
 [Exercicis resolts](exercicis_resolts.md)

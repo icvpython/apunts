@@ -1,6 +1,3 @@
-VS Code
------
-
 ## 1\. Instal·lar Python al teu sistema Ubuntu
 
 Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria de les versions d'Ubuntu ja porten Python preinstal·lat (normalment Python 3), però és bo verificar-ho.
@@ -17,7 +14,7 @@ Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria 
     ```
       * `python3-pip` és el gestor de paquets de Python, **molt important** per instal·lar llibreries.
 
------
+
 
 ## 2\. Instal·lar l'extensió de Python per a VS Code
 
@@ -29,7 +26,6 @@ Aquesta és l'extensió més important per a Python a VS Code, creada per Micros
 4.  Busca l'extensió anomenada **"Python"** publicada per **Microsoft**.
 5.  Fes clic al botó **Instal·lar**.
 
------
 
 ## 3\. Seleccionar l'intèrpret de Python
 
@@ -40,7 +36,7 @@ Un cop instal·lada l'extensió, VS Code necessita saber quina versió de Python
 3.  Fes clic en aquesta opció (o obre la **Paleta d'ordres** amb `Ctrl + Shift + P` i busca "Python: Select Interpreter").
 4.  Apareixerà una llista dels intèrprets de Python detectats al teu sistema. **Selecciona l'intèrpret de Python 3** que vols utilitzar (normalment `Python 3.x.x` o la ruta `usr/bin/python3`).
 
------
+
 
 ## 4\. Configurar l'entorn de Desenvolupament (Opcional, però molt recomanat)
 
@@ -52,7 +48,7 @@ Per a projectes Python, és una bona pràctica utilitzar **entorns virtuals**. A
 4.  Et preguntarà quina versió de Python vols usar per a aquest entorn. Tria la que vulguis (per exemple, `Python 3.12.3`).
 5.  VS Code crearà l'entorn virtual (normalment en una carpeta anomenada `.venv` dins del teu projecte) i el seleccionarà automàticament com l'intèrpret per al teu espai de treball.
 
------
+
 
 ## 5\. Executar i Testejar el teu codi Python
 
@@ -86,6 +82,18 @@ VS Code té un suport integrat per a frameworks de testing de Python com **Pytes
       * VS Code detectarà els teus fitxers de prova i els llistarà a la vista de "Test Explorer" (la icona de provetes a la barra lateral esquerra).
 3.  Des de la vista de **Test Explorer**, pots executar totes les proves, proves individuals, o depurar-les.
 
------
 
-Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional. Tens algun projecte Python en ment o alguna llibreria específica que vulguis començar a usar?
+
+## 6\. Instal·lar Processing al teu ordinador
+
+Processing és un entorn gràfic que funciona executant codi en Python i l'utilitzarem per fer tasques fora de l'entorn de consola.
+
+1.  **Obre el terminal** (`Ctrl + Alt + T`).
+2. Introdueix la següent comanda:
+
+    ```bash
+    sudo snap install processing --classic
+    ```
+
+
+Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
