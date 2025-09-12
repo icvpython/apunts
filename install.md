@@ -97,3 +97,12 @@ Processing és un entorn gràfic que funciona executant codi en Python i l'utili
 
 
 Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
+
+---
+
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span><a href="/apunts">Índex</a></span>
+       <span><a href="/apunts/1-introduccio.html">1. Introducció →</a></span>
+</p>
+</div>

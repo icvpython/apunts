@@ -134,3 +134,11 @@ elif x < 0:
 else:
     print("El nombre és zero.")
 ```
+
+---
+
+<div style="justify-content: space-between;">
+<p style="display:inline; display: flex; justify-content: space-between; width: auto;">
+       <span><a href="/apunts">Índex</a></span>
+</p>
+</div>

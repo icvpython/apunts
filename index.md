@@ -34,4 +34,4 @@
 
 [Instal·lació de Python i Visual Studio Code](install.md)
 
-[Exercicis resolts](exercicis_resolts.md)
+[//]: # [Exercicis resolts](exercicis_resolts.md)
