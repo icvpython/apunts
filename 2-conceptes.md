@@ -48,7 +48,7 @@ TEMPERATURA_FOC = 180
 | Tipus | Es pot canviar? | escrit | Exemple en la truita de patates |
 |--- |---|---|---|
 |Variable|Sí| minúscules |patates = 4 (segons els comensals)|
-|Constant|No| MaJÚLES | OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
+|Constant|No| MAJÚLES | OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
 
 
 ## 2.1.3. Tipus de variables
@@ -178,14 +178,16 @@ print(ous)      # 6
 |**	|Exponenciación	|2 ** 3 (= 8)|
 
 ## 2.2.2 Operadors relacionals
-|Operador | Descripció | Exemple |
+
+| Operador | Descripció | Exemple |
 |---|---|---|
-|==|	Igual	|(3 + 1) == (2 ** 2)|
-|!=|	Diferente|	0 != 1|
-|>	|Mayor que|	3 > 2|
-|<	|Menor que|	2 < 3|
-|>=|	Mayor o igual que|	3 >= (2 + 1)|
-|<=|	Menor o igual que|	2 <= 5|
+|==|Igual|(3 + 1) == (2 ** 2)|
+|!=| Diferente| 0 != 1|
+|> |Mayor que| 3 > 2|
+|< |Menor que| 2 < 3|
+|>=|Mayor o igual que|3 >= (2 + 1)|
+|<=|Menor o igual que|2 <= 5 |
+
 
 ## 2.2.3 Operadors lògics
 
