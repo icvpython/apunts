@@ -48,7 +48,7 @@ TEMPERATURA_FOC = 180
 | Tipus | Es pot canviar? | escrit | Exemple en la truita de patates |
 |--- |---|---|---|
 |Variable|Sí| minúscules |patates = 4 (segons els comensals)|
-|Constant|No| MAJÚLES | OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
+|Constant|No| MAJÚSCULES | OUS_PER_RACIO = 2 (sempre 2 ous per ració)|
 
 
 ## 2.1.3. Tipus de variables
