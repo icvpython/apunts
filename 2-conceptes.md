@@ -73,10 +73,10 @@ vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
 |Tipus complexes | Descripció | Exemple |
 |---|---|---|
 |Cadenas|	str	|String o cadena de caràcters | "Python", "Hola mundo"|
-|Listas|	list	|Seqüències ordenades d'objetes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
-|Tuplas **\***|	tuple|	Secuencias ordenadas inmutables de objetos: ("tres", [23, 34], -89, False) |
-|Conjuntos **\***|	set	|Colecciones no ordenadas de objetos: {1, 2, "a", "b"} |
-|Diccionarios **\***|	dict	|Pares ordenados atributo:valor: {"nombre":"Juan", "apellido":"Pérez"} |
+|Listas|	list	|Seqüències ordenades d'objectes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
+|Tuplas **\***|	tuple|	Seqüències ordenadas inmutables d'objectes: ("tres", [23, 34], -89, False) |
+|Conjuntos **\***|	set	|Coleccions sense duplicats no ordenadas d'objectes: {1, 2, "a", "b"} |
+|Diccionarios **\***|	dict	|Pars ordenats atribut:valor: {"nom":"Juan", "cognom":"Pérez"} |
 |binari|Amb prefix 0b |binari = 0b1101|
 |octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
 |hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
