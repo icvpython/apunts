@@ -15,8 +15,24 @@ Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria 
       * `python3-pip` és el gestor de paquets de Python, **molt important** per instal·lar llibreries.
 
 
+## 2\. Instal·lar VS Codium
 
-## 2\. Instal·lar l'extensió de Python per a VS Code
+```bash
+    wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+    | gpg --dearmor \
+    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+```
+
+```bash
+    echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
+| sudo tee /etc/apt/sources.list.d/vscodium.sources
+```
+
+```bash
+    sudo apt update && sudo apt install codium
+```
+
+## 3\. Instal·lar l'extensió de Python per a VS Code
 
 Aquesta és l'extensió més important per a Python a VS Code, creada per Microsoft.
 
@@ -27,7 +43,7 @@ Aquesta és l'extensió més important per a Python a VS Code, creada per Micros
 5.  Fes clic al botó **Instal·lar**.
 
 
-## 3\. Seleccionar l'intèrpret de Python
+## 4\. Seleccionar l'intèrpret de Python
 
 Un cop instal·lada l'extensió, VS Code necessita saber quina versió de Python (quin "intèrpret") utilitzarà per executar i depurar el teu codi.
 
@@ -38,7 +54,7 @@ Un cop instal·lada l'extensió, VS Code necessita saber quina versió de Python
 
 
 
-## 4\. Configurar l'entorn de Desenvolupament (Opcional, però molt recomanat)
+## 5\. Configurar l'entorn de Desenvolupament (Opcional, però molt recomanat)
 
 Per a projectes Python, és una bona pràctica utilitzar **entorns virtuals**. Això aïlla les dependències del teu projecte i evita conflictes amb altres projectes o amb la instal·lació global de Python.
 
@@ -50,7 +66,7 @@ Per a projectes Python, és una bona pràctica utilitzar **entorns virtuals**. A
 
 
 
-## 5\. Executar i Testejar el teu codi Python
+## 6\. Executar i Testejar el teu codi Python
 
 Amb tot això configurat, ja pots començar a programar i testejar.
 
@@ -84,7 +100,7 @@ VS Code té un suport integrat per a frameworks de testing de Python com **Pytes
 
 
 
-## 6\. Instal·lar Processing al teu ordinador
+## 7\. Instal·lar Processing al teu ordinador
 
 Processing és un entorn gràfic que funciona executant codi en Python i l'utilitzarem per fer tasques fora de l'entorn de consola.
 
