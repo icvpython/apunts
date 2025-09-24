@@ -33,11 +33,11 @@ sudo apt update && sudo apt install codium
 ```
 
     
-## 3\. Instal·lar l'extensió de Python per a VS Code
+## 3\. Instal·lar l'extensió de Python per a VS Codium
 
-Aquesta és l'extensió més important per a Python a VS Code, creada per Microsoft.
+Aquesta és l'extensió més important per a Python a VS Codium, creada per Microsoft.
 
-1.  **Obre VS Code.**
+1.  **Obre VS Codium.**
 2.  Ves a la icona de les **Extensions** a la barra lateral esquerra (o prem `Ctrl + Shift + X`).
 3.  A la barra de cerca, escriu **"Python"**.
 4.  Busca l'extensió anomenada **"Python"** publicada per **Microsoft**.
@@ -46,10 +46,10 @@ Aquesta és l'extensió més important per a Python a VS Code, creada per Micros
 
 ## 4\. Seleccionar l'intèrpret de Python
 
-Un cop instal·lada l'extensió, VS Code necessita saber quina versió de Python (quin "intèrpret") utilitzarà per executar i depurar el teu codi.
+Un cop instal·lada l'extensió, VS Codium necessita saber quina versió de Python (quin "intèrpret") utilitzarà per executar i depurar el teu codi.
 
-1.  **Obre una carpeta o un fitxer Python (`.py`) a VS Code.**
-2.  Mira la **barra d'estat inferior** de VS Code. Hauries de veure una opció que diu alguna cosa com `Python X.X.X` o `No Interpreter Selected`.
+1.  **Obre una carpeta o un fitxer Python (`.py`) a VS Codium.**
+2.  Mira la **barra d'estat inferior** de VS Codium. Hauries de veure una opció que diu alguna cosa com `Python X.X.X` o `No Interpreter Selected`.
 3.  Fes clic en aquesta opció (o obre la **Paleta d'ordres** amb `Ctrl + Shift + P` i busca "Python: Select Interpreter").
 4.  Apareixerà una llista dels intèrprets de Python detectats al teu sistema. **Selecciona l'intèrpret de Python 3** que vols utilitzar (normalment `Python 3.x.x` o la ruta `usr/bin/python3`).
 
@@ -61,9 +61,9 @@ Per a projectes Python, és una bona pràctica utilitzar **entorns virtuals**. A
 
 1.  **Obre la Paleta d'ordres** (`Ctrl + Shift + P`).
 2.  Cerca **"Python: Create Environment"** i selecciona-la.
-3.  VS Code et preguntarà si vols crear un entorn **`Venv`** o **`Conda`**. Per a la majoria d'usuaris, **`Venv`** és el més comú i el que ja ve amb Python. Selecciona'l.
+3.  VS Codium et preguntarà si vols crear un entorn **`Venv`** o **`Conda`**. Per a la majoria d'usuaris, **`Venv`** és el més comú i el que ja ve amb Python. Selecciona'l.
 4.  Et preguntarà quina versió de Python vols usar per a aquest entorn. Tria la que vulguis (per exemple, `Python 3.12.3`).
-5.  VS Code crearà l'entorn virtual (normalment en una carpeta anomenada `.venv` dins del teu projecte) i el seleccionarà automàticament com l'intèrpret per al teu espai de treball.
+5.  VS Codium crearà l'entorn virtual (normalment en una carpeta anomenada `.venv` dins del teu projecte) i el seleccionarà automàticament com l'intèrpret per al teu espai de treball.
 
 
 
@@ -75,28 +75,28 @@ Amb tot això configurat, ja pots començar a programar i testejar.
 
 1.  Obre el teu fitxer `.py`.
 2.  Fes clic al botó **"Run Python File"** (sembla un triangle verd, "play") a la part superior dreta de l'editor, o fes clic dret dins del fitxer i selecciona **"Run Python File in Terminal"**.
-3.  El codi s'executarà al terminal integrat de VS Code.
+3.  El codi s'executarà al terminal integrat de VS Codium.
 
 ### **Per Depurar (Debugging):**
 
 1.  **Col·loca punts de ruptura (breakpoints):** Fes clic al marge esquerre de la línia de codi on vols que el programa s'aturi (apareixerà un punt vermell).
 2.  Ves a la icona **"Run and Debug"** a la barra lateral esquerra (un triangle amb un insecte).
 3.  Fes clic al botó **"Run and Debug"** verd.
-4.  VS Code iniciarà el programa, s'aturarà als teus punts de ruptura i podràs inspeccionar variables, passar el codi pas a pas, etc.
+4.  VS Codium iniciarà el programa, s'aturarà als teus punts de ruptura i podràs inspeccionar variables, passar el codi pas a pas, etc.
 
 ### **Per Testejar (amb Pytest o Unittest):**
 
-VS Code té un suport integrat per a frameworks de testing de Python com **Pytest** o **Unittest**.
+VS Codium té un suport integrat per a frameworks de testing de Python com **Pytest** o **Unittest**.
 
 1.  **Instal·la el teu framework de testing** dins del teu entorn virtual (si n'has creat un). Per exemple, per Pytest:
     ```bash
     pip install pytest
     ```
-2.  **Configura el testing a VS Code:**
+2.  **Configura el testing a VS Codium:**
       * Obre la **Paleta d'ordres** (`Ctrl + Shift + P`).
       * Cerca **"Python: Configure Tests"**.
       * Selecciona el teu framework de testing (per exemple, `pytest`).
-      * VS Code detectarà els teus fitxers de prova i els llistarà a la vista de "Test Explorer" (la icona de provetes a la barra lateral esquerra).
+      * VS Codium detectarà els teus fitxers de prova i els llistarà a la vista de "Test Explorer" (la icona de provetes a la barra lateral esquerra).
 3.  Des de la vista de **Test Explorer**, pots executar totes les proves, proves individuals, o depurar-les.
 
 
@@ -117,7 +117,7 @@ Processing és un entorn gràfic que funciona executant codi en Python i l'utili
     ![Mode Python](imatges/python_mode.png)
 
 
-Amb aquests passos, el teu VS Code a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
+Amb aquests passos, el teu VS Codium a Ubuntu estarà perfectament optimitzat per a un desenvolupament de Python eficient i professional.
 
 ---
 
