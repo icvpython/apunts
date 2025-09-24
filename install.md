@@ -32,6 +32,7 @@ Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria 
     sudo apt update && sudo apt install codium
     ```
 
+    
 ## 3\. Instal·lar l'extensió de Python per a VS Code
 
 Aquesta és l'extensió més important per a Python a VS Code, creada per Microsoft.
