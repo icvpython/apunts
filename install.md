@@ -23,11 +23,13 @@ Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria 
     | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
     ```
 
+    
     ```bash
     echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
     | sudo tee /etc/apt/sources.list.d/vscodium.sources
     ```
 
+    
     ```bash
     sudo apt update && sudo apt install codium
     ```
