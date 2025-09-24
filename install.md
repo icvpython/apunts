@@ -17,22 +17,20 @@ Abans de res, assegura't que Python està instal·lat al teu Ubuntu. La majoria 
 
 ## 2\. Instal·lar VS Codium
 
-    ```bash
-    wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
-    | gpg --dearmor \
-    | sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
-    ```
+```bash
+wget -qO - https://gitlab.com/paulcarroty/vscodium-deb-rpm-repo/raw/master/pub.gpg \
+| gpg --dearmor \
+| sudo dd of=/usr/share/keyrings/vscodium-archive-keyring.gpg
+```
 
-    
-    ```bash
-    echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
-    | sudo tee /etc/apt/sources.list.d/vscodium.sources
-    ```
+```bash
+echo -e 'Types: deb\nURIs: https://download.vscodium.com/debs\nSuites: vscodium\nComponents: main\nArchitectures: amd64 arm64\nSigned-by: /usr/share/keyrings/vscodium-archive-keyring.gpg' \
+| sudo tee /etc/apt/sources.list.d/vscodium.sources
+```
 
-    
-    ```bash
-    sudo apt update && sudo apt install codium
-    ```
+```bash
+sudo apt update && sudo apt install codium
+```
 
     
 ## 3\. Instal·lar l'extensió de Python per a VS Code
