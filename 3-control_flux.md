@@ -107,6 +107,31 @@ for volta in range(5):
 * A cada volta, la variable volta conté el número actual de la repetició.
 * Sumem +1 perquè als humans ens agrada comptar des de l’1, no des de l’0.
 
+### Bucle for invers
+
+En cas que volguéssim fer un bucle invers és a dir que comences a contar des de l'últim número fins al 0.
+
+**Recorre una seqüència de números en ordre invers:**
+```Python
+for volta in range(10, 0, -1):
+    print(f"Remeno la sopa - volta {volta}")
+```
+En aquest cas començaria en el número 10 i iria fent -1 cada volta, fins a arribar al 0 (sense incloure-ho).
+
+**Recorre una cadena o llista en ordre invers:**
+```Python
+llista = [1, 2, 3, 4, 5]
+for element in reversed(lllista):
+  print(element)
+# Sortida:
+# 5
+# 4
+# 3
+# 2
+# 1
+```
+El reversed és una funció que retorna els valors de la llista des del final fins al principi en comptes de com ho faria normalment el for
+
 ### Bucle while
 
 El bucle `while` repeteix una acció mentre una condició sigui certa. És ideal quan no saps exactament quantes vegades hauràs de repetir una acció. Com remenar una salsa fins que quedi espessa.
@@ -129,7 +154,6 @@ Explicació detallada:
 * Quan espessor arriba a 5, el bucle s’atura i es passa a la següent línia.
 
 Aquest tipus de bucle és molt útil quan volem esperar una “condició real”, com un temporitzador, una acció de l’usuari o un estat físic.
-
 
 ## 3.1.5.Resum
 
