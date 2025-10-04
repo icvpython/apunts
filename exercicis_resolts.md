@@ -135,7 +135,62 @@ else:
     print("El nombre és zero.")
 ```
 
+
+
 ---
+# Exercicis per practicar funcions de strings
+
+### Exercici 11: Extraure un substring
+Enunciat: Donada una cadena, extrau una subcadena des de l'índex 2 fins a l'índex 5 (sense incloure'l).
+
+Solució:
+
+```Python
+text = "Python"
+sub = text[2:5]  # Comença en posició 2 fins abans de 5
+print(sub)  # Sortida: tho
+```
+### Exercici 12: Treure espais a les dues bandes
+Enunciat: Donada una cadena amb espais al davant i darrere, elimina aquests espais.
+
+Solució:
+
+```Python
+text = "   hola món   "
+neteja = text.strip()  # Elimina espais a l'inici i final
+print(neteja)  # Sortida: hola món
+```
+### Exercici 13: Pasar a majúscules i buscar
+Enunciat: Passa una cadena a majúscules i comprova si conté la paraula "PYTHON".
+
+Solució:
+
+```Python
+text = "M'agrada python"
+text_up = text.upper()
+print(text_up)  # M'AGRADA PYTHON
+print("PYTHON" in text_up)  # True
+```
+### Exercici 14: Reemplaçar una paraula
+Enunciat: Substitueix la paraula "dolor" per "alegria" en la frase donada.
+
+Solució:
+
+```Python
+frase = "El dolór és fort"
+nova = frase.replace("dolor", "alegria")
+print(nova)  # Sortida: El alegria és fort
+```
+### Exercici 15: Unir una llista amb un separador (les llistes s'expliquen al tema 5)
+Enunciat: Uneix una llista de paraules separades per un guió "-".
+
+Solució:
+
+```Python
+paraules = ["un", "dos", "tres"]
+resultat = "-".join(paraules)
+print(resultat)  # Sortida: un-dos-tres
+```
 
 <div style="justify-content: space-between;">
 <p style="display:inline; display: flex; justify-content: space-between; width: auto;">
