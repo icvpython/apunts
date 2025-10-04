@@ -70,16 +70,16 @@ chef = "Ada"        # Una cadena de text (str)
 vol_ceba = True     # Un valor lògic, només pot ser True o False (bool)
 ```
 
-|Tipus complexes | Descripció | Exemple |
-|---|---|---|
+|Tipus complexes | nom | Descripció | Exemple |
+|---|---|---|---|
 |Cadenas|	str	|String o cadena de caràcters | "Python", "Hola mundo"|
-|Listas|	list	|Seqüències ordenades d'objectes: [1, 2, 3, "cuatro", True, [5, 6, 7]] |
-|Tuplas **\***|	tuple|	Seqüències ordenadas inmutables d'objectes: ("tres", [23, 34], -89, False) |
-|Conjuntos **\***|	set	|Coleccions sense duplicats no ordenadas d'objectes: {1, 2, "a", "b"} |
-|Diccionarios **\***|	dict	|Pars ordenats atribut:valor: {"nom":"Juan", "cognom":"Pérez"} |
-|binari|Amb prefix 0b |binari = 0b1101|
-|octal|Amb prefix 0o (zero i o minúscula) |octal = 0o10|
-|hexadecimal|Amb prefix 0x|hexadecinal = 0xA0F|
+|Listas|	list	|Seqüències ordenades d'objectes | [1, 2, 3, "cuatro", True, [5, 6, 7]] |
+|Tuplas **\***|	tuple|	Seqüències ordenadas inmutables d'objectes| ("tres", [23, 34], -89, False) |
+|Conjuntos **\***|	set	|Coleccions sense duplicats no ordenadas d'objectes| {1, 2, "a", "b"} |
+|Diccionarios **\***|	dict	|Pars ordenats atribut:valor | {"nom":"Juan", "cognom":"Pérez"} |
+|binari| bin |Amb prefix 0b |binari = 0b1101|
+|octal| 0o | Amb prefix 0o (zero i o minúscula) |octal = 0o10|
+|hexadecimal| hex | Amb prefix 0x|hexadecinal = 0xA0F|
 
 **\*** No els aprendràs aquest curs.
 
@@ -162,6 +162,112 @@ print(ous)      # 4
 ous = ous + 2
 print(ous)      # 6
 ```
+## 2.1.6. Modificar variables de tipus string (cadena de text)
+
+Les cadenes de text (strings) són molt utilitzades en programació. Les funcions més importants per treballar amb strings s'utilitzen per extraure subcadenes (substrings), eliminar espais sobressalents (fet que anomenem trim), i altres.
+
+|Funció | Descripció | Exemple |
+|---|---|---|
+|substring|	Extracció de subcadenes	| text[0:4]|
+|trim|	Eliminar espais en blanc. Es poden utilitzar strip(), lstrip() o rstrip() 	|text.strip() |
+|majúscules| upper() canvia a tot majúscules, lower() a minúscules i title() a tipus títol | text.upper() |
+|buscar text| find() busca un text, in s'utilitza en condicionals| text.find("Python")  print("món" in text)|
+|separar | split() divideix una cadena de text i retorna una llista | text.split()
+|unir | join() uneix dos strings que estan en una llista | frase = " ".join(llista)
+
+Ara s'expliquen amb més detall
+
+### Extracció de subcadenes (substrings)
+Una de les operacions més comunes és obtenir parts d'una cadena. Per fer-ho, a Python s'usa la indexació i el tall (slicing).
+
+Exemple:
+
+```Python
+text = "Hola món"
+substring = text[0:4]  # Extraure des de la posició 0 fins a la 3 (4 no inclòs)
+print(substring)  # Sortida: Hola
+```
+Aquí text[0:4] diu: "Agafa els caràcters des de la posició 0 fins abans de la 4". Les posicions comencen a comptar des de 0.
+
+
+### Eliminar espais en blanc (trim)
+És habitual que una cadena tingui espais abans o després que volem eliminar. Per això, Python té mètodes per treure aquests espais:
+
+strip() elimina espais a l'inici i final.
+
+lstrip() només elimina espais a l'inici.
+
+rstrip() només elimina espais al final.
+
+Exemple:
+
+```Python
+text = "   hola món   "
+print(text.strip())   # Sortida: "hola món"
+print(text.lstrip())  # Sortida: "hola món   "
+print(text.rstrip())  # Sortida: "   hola món"
+```
+### Canviar majúscules/minúscules
+Python permet canviar totes les lletres a majúscula o minúscula amb:
+
+upper() passa tot a majúscules.
+
+lower() passa tot a minúscules.
+
+title() posa en majúscula la primera lletra de cada paraula.
+
+Exemple:
+
+```Python
+text = "hola món"
+print(text.upper())  # Sortida: "HOLA MÓN"
+print(text.lower())  # Sortida: "hola món"
+print(text.title())  # Sortida: "Hola Món"
+```
+### Buscar una subcadena
+Per saber si una paraula o caràcter apareix dins d’una cadena, utilitzem:
+
+in per comprovar si hi és.
+
+find() retorna la posició de la primera aparició o -1 si no hi és.
+
+Exemple:
+
+```Python
+text = "Hola món"
+print("món" in text)       # True
+print(text.find("món"))    # 5
+print(text.find("Python")) # -1 (no hi és)
+```
+### Reemplaçar text
+Pots substituir parts d’una cadena amb replace():
+
+```Python
+text = "Hola món"
+nou_text = text.replace("món", "Python")
+print(nou_text)  # Sortida: Hola Python
+```
+
+### Dividir i unir cadenes
+split() separa una cadena en llista de paraules o elements segons un separador.
+
+join() uneix elements d'una llista en una cadena separada per un text.
+
+Exemple:
+
+```Python
+text = "un dos tres"
+llista = text.split()  # ['un', 'dos', 'tres']
+print(llista)
+
+frase = " ".join(llista)
+print(frase)  # Sortida: "un dos tres"
+
+frases = ["Bon dia", "com", "estàs", "avui?"]
+resultat = " *** ".join(frases)
+print(resultat)   # Sortida:  Bon dia *** com *** estàs *** avui?
+```
+En aquest exemple, el mètode join() uneix totes les cadenes de la llista frases separant-les amb la cadena " *** ". Pots posar qualsevol text com a separador.
 
 # 2.2. Operadors
 
