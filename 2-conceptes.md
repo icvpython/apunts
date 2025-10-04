@@ -169,11 +169,11 @@ Les cadenes de text (strings) són molt utilitzades en programació. Les funcion
 |Funció | Descripció | Exemple |
 |---|---|---|
 |substring|	Extracció de subcadenes	| text[0:4]|
-|trim|	Eliminar espais en blanc. Es poden utilitzar strip(), lstrip() o rstrip() 	|text.strip() |
-|majúscules| upper() canvia a tot majúscules, lower() a minúscules i title() a tipus títol | text.upper() |
-|buscar text| find() busca un text, in s'utilitza en condicionals| text.find("Python")  print("món" in text)|
-|separar | split() divideix una cadena de text i retorna una llista | text.split()
-|unir | join() uneix dos strings que estan en una llista | frase = " ".join(llista)
+|trim|	Eliminar espais en blanc. Es poden utilitzar `strip()`, lstrip() o rstrip() 	|text.strip() |
+|majúscules| `upper()` canvia a tot majúscules, `lower()` a minúscules i `title()` a tipus títol | text.upper() |
+|buscar text| `find()` busca un text, in s'utilitza en condicionals| text.find("Python")  print("món" in text)|
+|separar | `split()` divideix una cadena de text i retorna una llista | text.split()
+|unir | `join()` uneix dos strings que estan en una llista | frase = " ".join(llista)
 
 Ara s'expliquen amb més detall
 
